@@ -1,0 +1,46 @@
+✅ Step-by-Step Guide
+🔹 1. Extract the compressed file
+Use your OS or a tool like WinRAR, 7-Zip, or tar to extract the project folder.
+
+On Windows: Right-click > Extract Here or Extract to /folder/
+
+On Linux/macOS terminal:
+
+
+unzip yourfile.zip     # for .zip
+tar -xvzf yourfile.tar.gz  # for .tar.gz
+🔹 2. Open the project folder
+It should contain something like:
+
+
+/client       → React frontend
+/server       → Node/Express backend
+/package.json → Optional root package.json
+
+
+🔹 3. Install dependencies
+Open your terminal in the extracted root folder.
+
+📁 For frontend (client):
+
+cd client
+npm install
+📁 For backend (server):
+
+cd ../server
+npm install
+📝 If both client and server are managed from root with a root package.json, you can just run:
+
+npm install
+
+
+
+🔹 4. Run the project
+✅ Run Backend (Express):
+
+cd server
+npm start      # or: nodemon server.js
+✅ Run Frontend (React):
+
+cd client
+npm start      # This will start frontend at http://localhost:5173/
