@@ -1,4 +1,10 @@
 ✅ Step-by-Step Guide
+
+make a .env file and add following  url
+PORT=5000
+MONGO_URI=mongodb+srv://rajulal0747:BgaOAGkhZfyNoY6k@assigmentproject.0mp9nfn.mongodb.net/?retryWrites=true&w=majority&appName=AssigmentProject
+
+
 🔹 1. Extract the compressed file
 Use your OS or a tool like WinRAR, 7-Zip, or tar to extract the project folder.
 
